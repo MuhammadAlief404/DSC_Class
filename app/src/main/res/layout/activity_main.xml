@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--Search Bar-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+            
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BUkaLapaK"
+                android:textColor="@color/colorFont"
+                android:textStyle="bold"
+
+                android:drawableLeft="@drawable/ic_search"
+                android:drawableTint="@color/colorFont"
+                android:background="@drawable/bg_text"
+                android:drawablePadding="10dp"/>
+            
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!--Menu Atas-->
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        
+            <!--Single Button Menu -->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:src="@drawable/ic_flash"
+                    android:tint="#fdd835"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bg_round_menu"
+                    android:backgroundTint="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flash Deal"
+                    android:textColor="#000"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <!--Single Button Menu -->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:padding="10dp"
+                    android:src="@drawable/box"
+                    android:scaleType="fitXY"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bg_round_menu"
+                    android:backgroundTint="#aee4ad"/>
+
+                <TextView
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gratis Ongkir"
+                    android:textColor="#000"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <!--Single Button Menu -->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:padding="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/percent"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bg_round_menu"
+                    android:backgroundTint="#aa90db"/>
+
+                <TextView
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Special Promo"
+                    android:textColor="#000"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+            <!--Single Button Menu -->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:padding="10dp"
+                    android:src="@drawable/like"
+                    android:scaleType="fitXY"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bg_round_menu"
+                    android:backgroundTint="#ffab91"/>
+
+                <TextView
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Barang Favorit"
+                    android:textColor="#000"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!--Image Slider-->
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Spesial Untukmu"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_marginLeft="120dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Semua"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#cf134a"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bukalapak"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!--Menu Bawah-->
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Menu Favorit"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_marginLeft="140dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Semua"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#cf134a"/>
+            </LinearLayout>
+
+            <!--Layout Baris Atas-->
+            <!--<LinearLayout-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_gravity="center">-->
+
+                <!--&lt;!&ndash;Menu Item&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginRight="20dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageButton-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:src="@drawable/ic_flash"-->
+                        <!--android:tint="#fdd835"-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:background="@drawable/bg_round_menu"-->
+                        <!--android:backgroundTint="@color/colorAccent"/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Shake a-Thon"-->
+                        <!--android:textColor="#000"-->
+                        <!--android:textSize="12sp"/>-->
+                <!--</LinearLayout>-->
+                <!--&lt;!&ndash;Menu Item&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginRight="20dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageButton-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:src="@drawable/ic_flash"-->
+                        <!--android:tint="#fdd835"-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:background="@drawable/bg_round_menu"-->
+                        <!--android:backgroundTint="@color/colorAccent"/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="BukaPolling"-->
+                        <!--android:textColor="#000"-->
+                        <!--android:textSize="12sp"/>-->
+                <!--</LinearLayout>-->
+                <!--&lt;!&ndash;Menu Item&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginRight="20dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageButton-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:src="@drawable/ic_flash"-->
+                        <!--android:tint="#fdd835"-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:background="@drawable/bg_round_menu"-->
+                        <!--android:backgroundTint="@color/colorAccent"/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Pulsa Prabayar"-->
+                        <!--android:textColor="#000"-->
+                        <!--android:textSize="12sp"/>-->
+                <!--</LinearLayout>-->
+                <!--&lt;!&ndash;Menu Item&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageButton-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:src="@drawable/ic_flash"-->
+                        <!--android:tint="#fdd835"-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:background="@drawable/bg_round_menu"-->
+                        <!--android:backgroundTint="@color/colorAccent"/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:gravity="center"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Listrik Pascabayar"-->
+                        <!--android:textColor="#000"-->
+                        <!--android:textSize="12sp"/>-->
+                <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <!--Menu Item-->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_shake"
+                        android:tint="#fff"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bg_round_menu"
+                        android:backgroundTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shake a-Thon"
+                        android:textColor="#000"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+                <!--Menu Item-->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_poll"
+                        android:tint="#fff"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bg_round_menu"
+                        android:backgroundTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BukaPolling"
+                        android:textColor="#000"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+                <!--Menu Item-->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_pulsa"
+                        android:tint="#fff"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bg_round_menu"
+                        android:backgroundTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pulsa Prabayar"
+                        android:textColor="#000"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+                <!--Menu Item-->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_flash"
+                        android:tint="#fff"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bg_round_menu"
+                        android:backgroundTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Listrik"
+                        android:textColor="#000"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Layout Baris Bawah-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <!--Menu Item-->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_pembeli"
+                        android:tint="#fff"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bg_round_menu"
+                        android:backgroundTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pembeli Prioritas"
+                        android:textColor="#000"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+                <!--Menu Item-->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_kupon"
+                        android:tint="#fff"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bg_round_menu"
+                        android:backgroundTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kupon"
+                        android:textColor="#000"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+                <!--Menu Item-->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_dana"
+                        android:tint="#fff"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bg_round_menu"
+                        android:backgroundTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buka DANA"
+                        android:textColor="#000"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+                <!--Menu Item-->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_pesawat"
+                        android:tint="#fff"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bg_round_menu"
+                        android:backgroundTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tiked Pesawat"
+                        android:textColor="#000"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
